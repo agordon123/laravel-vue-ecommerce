@@ -1,12 +1,13 @@
 <template>
-    <h1>Dashboard</h1>
+
 </template>
+
 <script>
 export default {
-    name:"Dashboard"
-};
+  name: "TopHeader"
+}
 </script>
 
-
 <style scoped>
+
 </style>

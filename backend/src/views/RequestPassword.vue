@@ -1,5 +1,5 @@
 <template>
-  <GuestLayout title="Reset password" @submit="login">
+  <GuestLayout title="Request new password">
     <form class="mt-8 space-y-6" action="#" method="POST">
       <input type="hidden" name="remember" value="true"/>
       <div class="rounded-md shadow-sm -space-y-px">
@@ -32,5 +32,5 @@
 
 <script setup>
 import { LockClosedIcon } from '@heroicons/vue/20/solid'
-import GuestLayout from "../components/GuestLayout.vue";
+import {GuestLayout} from "../components/GuestLayout.vue";
 </script>

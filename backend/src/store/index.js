@@ -1,6 +1,6 @@
-import { createPinia } from "pinia";
+import { defineStore } from "pinia";
 
-const store =  createPinia(
+const store =  defineStore(
     {
         state:{
             test:'1234'
