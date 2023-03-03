@@ -6,14 +6,20 @@
           {{ title }}
         </h2>
       </div>
-      <slot></slot>
     </div>
+  </div>
+
+
+      <div>
+
+      <slot></slot>
+
   </div>
 </template>
 
 <script setup>
 const {title} = defineProps({
-  title: String
+  title:String
 })
 </script>
 

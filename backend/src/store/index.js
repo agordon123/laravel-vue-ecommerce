@@ -1,20 +1,7 @@
-import { defineStore } from "pinia";
+import AuthStore from "./AuthStore.js";
+import UserStore from "./UserStore";
+import ProductStore from './ProductStore'
 
-const store =  defineStore(
-    {
-        state:{
-            user:{
-                token:'1234',
-                data:{
-
-                }
-            }
-
-        },
-        getters:{},
-        setters:{},
-        mutations:{}
-    }
-)
-
-export default store;
+export default {
+    AuthStore,UserStore,ProductStore
+}
